@@ -1,0 +1,83 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #1e90ff; /* Change header background color here */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ff4500; /* Change footer background color here */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Background image styles */
+.bread-image {
+    background-image: url('bread.avif'); /* Change the image filename if necessary */
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    height: 100vh; /* Set to viewport height for full-screen background */
+    position: relative;
+}
+
+
+/* Scroll indicator styles */
+.scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.scroll-indicator p {
+    margin-bottom: 10px;
+}
+
+.scroll-indicator i {
+    font-size: 24px; /* Adjust the size of the icon */
+}
