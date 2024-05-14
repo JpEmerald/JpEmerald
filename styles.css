@@ -63,6 +63,14 @@ footer {
     position: relative;
 }
 
+.about-me { 
+    background-image: url('placeHolder.jpg');
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    position: relative;
+    height: 100vh;
+    width: 100px;
+    }
 
 /* Scroll indicator styles */
 .scroll-indicator {
